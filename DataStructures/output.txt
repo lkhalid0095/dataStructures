@@ -1,4 +1,4 @@
-Data processed at 2020-02-20 15:23:23.529
+Data processed at 2020-02-20 16:23:07.395
 
 The artists names alphabetically sorted using arrays: 
 
