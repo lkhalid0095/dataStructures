@@ -11,8 +11,6 @@ import java.util.Scanner;
  * @author Lubna Khalid
  * CISC 3130 - Professor Chuang
  * Data used - Global - Week ending Jan 23,2020 
- * 
- *
  */
 public class TopStreamingArtists {
 
