@@ -24,20 +24,26 @@ public class TopStreamingArtists {
 		try {
 			Scanner in = new Scanner(new File("global.csv"));
 			String[][] dataList = new String[ROWS][COLS];
-			String[] artistNames = new String[200];
-			String[] noDuplicateNames = new String[200];
-			readList(dataList,in,artistNames);
-			sortList(dataList,artistNames);
-			int num = checkDuplicate(artistNames,noDuplicateNames);
-			for(int l = 0; l< ROWS;l++) {
-				System.out.println(artistNames[l]);
+			String[] artistNames = new String[ROWS];
+			int[] parCount = new int[ROWS];
+			int[] countReps = new int[ROWS];
+			String[] temp = new String[ROWS];
+			readArr(dataList,in,artistNames);
+			sortArr(dataList,artistNames);
+			countReps(artistNames,parCount);
+			int count = removeDuplicates(artistNames,parCount,temp,countReps);
+			System.out.println("The artists names using arrays: ");
+			for(int i = 0;i<count;i++) {
+				System.out.println(artistNames[i] + " repeated "+ parCount[i]+ " times.");
+
 			}
-			for(int i = 0;i<ROWS;i++) {
-				for(int j=0;j<COLS;j++) {
-					System.out.print(dataList[i][j]+" ");
-				}
-				System.out.println();
+			
+			ArtistList list = new ArtistList();
+			for(int i = 0;i< count; i++) {
+				list.insertLast(artistNames[i],parCount[i]);
 			}
+			System.out.println("\nThe artists names using linked lists: ");
+			list.displayList();
 		} 
 
 		// catches if the file called isn't found in the repository
@@ -47,23 +53,53 @@ public class TopStreamingArtists {
 		}
 	}
 
-	/**
-	 * populates this array by using the sorted artist names, but taking out the duplicates 
-	 * @param artistNames
-	 * @param noDupl
-	 * @return
-	 */
-	private static int checkDuplicate(String[] artistNames, String[] noDupl) {
-		// TODO Auto-generated method stub
-		return 0;
+
+	// TODO Auto-generated method stub
+	private static int removeDuplicates(String[] artistNames, int[] parArr, String[] temp, int[] countArr) {
+		int num = 0;
+
+		for(int i = 0; i<ROWS-1;i++) {
+			if(!artistNames[i].equals(artistNames[i+1])) {
+				temp[num] = artistNames[i];
+				countArr[num] = parArr[i];
+				num++;
+			}
+		} 
+		temp[num] = artistNames[ROWS-1];
+		countArr[num]=parArr[ROWS-1];
+		num++;
+		
+		for(int i = 0;i<num;i++) {
+			artistNames[i] = temp[i];
+			parArr[i] = countArr[i];
+		}
+		return num;
 	}
+
 
 	/**
 	 * 
+	 * @param artistNames
+	 * @param countReps
+	 */
+	private static void countReps(String[] artistNames, int[] countReps) {
+		for(int i =0;i<ROWS;i++) {
+			int count = 0;
+			String target = artistNames[i];
+			for(String s:artistNames) {
+				if(s.equals(target))
+					count++;
+			}
+			countReps[i] = count;
+		}
+	}
+
+	/**
+	 * alphabetically sorts list using bubble sort
 	 * @param dataList
 	 * @param artistNames 
 	 */
-	private static void sortList(String[][] dataList, String[] artistNames) {
+	private static void sortArr(String[][] dataList, String[] artistNames) {
 
 		//this is bubble sorting, when you take the pairs and compare
 		// use comparetoignorecase so you compare letters without worrying about the case
@@ -95,7 +131,7 @@ public class TopStreamingArtists {
 	 * i can simply take one part of the table without worrying about losing data
 	 * @param artistNames the 1D array with only the artist names
 	 */
-	private static void readList(String[][] dataList, Scanner in, String[] artistNames) {
+	private static void readArr(String[][] dataList, Scanner in, String[] artistNames) {
 
 		int rows = 0;
 		while(in.hasNext()&& rows <ROWS) {
@@ -121,7 +157,6 @@ public class TopStreamingArtists {
 				artistNames[count] = artistNames[count].substring(1, artistNames[count].lastIndexOf("\""));
 			}
 			count++;
-
 		}
 
 	}
