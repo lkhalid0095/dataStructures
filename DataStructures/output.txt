@@ -1,0 +1,337 @@
+Data processed at 2020-02-20 15:23:23.529
+
+The artists names alphabetically sorted using arrays: 
+
+5 Seconds of Summer
+Alan Walker
+Ali Gatie
+Ant Saunders
+Anuel AA
+Arcangel
+Ariana Grande
+Arizona Zervas
+Ava Max
+Bad Bunny
+benny blanco
+Billie Eilish
+Black Thought
+blackbear
+BROCKHAMPTON
+BTS
+Camila Cabello
+Camilo
+Chris Brown
+Conan Gray
+DaBaby
+Daddy Yankee
+Dalex
+Dan + Shay
+Dean Lewis
+Dimelo Flow
+DJ Snake
+Doja Cat
+Dominic Fike
+Don Toliver
+Drake
+Dua Lipa
+Ed Sheeran
+Ellie Goulding
+Eminem
+Future
+Gambi
+Halsey
+Harry Styles
+Henrique & Juliano
+Imagine Dragons
+J Balvin
+J. Cole
+JACKBOYS
+James Arthur
+Jhay Cortez
+Jonas Brothers
+JP Saxe
+Juice WRLD
+Juju
+Justin Bieber
+Justin Quiles
+KAROL G
+Khalid
+Kina
+Kygo
+Lady Gaga
+Lauv
+Lewis Capaldi
+Lil Baby
+Lil Nas X
+Lil Tecca
+Lil Uzi Vert
+Lizzo
+Lunay
+Mac Miller
+Maes
+Maroon 5
+Marshmello
+Matthew Wilder
+MEDUZA
+Mustard
+Nicky Jam
+Noah Cyrus
+Olivia Rodrigo
+Panic! At The Disco
+Piso 21
+Post Malone
+Queen
+Rauw Alejandro
+Red Velvet
+Regard
+Reik
+Rich Music LTD
+Riton
+Roddy Ricch
+ROSALÍA
+SAINt JHN
+Sam Smith
+Sech
+Selena Gomez
+SHAED
+Shakira
+Shawn Mendes
+Stormzy
+Surfaces
+Tainy
+The Black Eyed Peas
+The Weeknd
+Thiaguinho MT
+Tones and I
+Travis Scott
+Trevor Daniel
+Tyga
+Ufo361
+XXXTENTACION
+Y2K
+YNW Melly
+Young Thug
+
+The artists names sorted based on their streams(using parallel arrays): 
+
+Eminem repeated 17 times.
+Mac Miller repeated 12 times.
+Billie Eilish repeated 6 times.
+Post Malone repeated 6 times.
+Ed Sheeran repeated 5 times.
+DaBaby repeated 4 times.
+Halsey repeated 4 times.
+Harry Styles repeated 4 times.
+J Balvin repeated 4 times.
+Travis Scott repeated 4 times.
+Jonas Brothers repeated 3 times.
+Juice WRLD repeated 3 times.
+Lewis Capaldi repeated 3 times.
+Selena Gomez repeated 3 times.
+XXXTENTACION repeated 3 times.
+Ariana Grande repeated 2 times.
+Arizona Zervas repeated 2 times.
+Bad Bunny repeated 2 times.
+blackbear repeated 2 times.
+BTS repeated 2 times.
+Camila Cabello repeated 2 times.
+Daddy Yankee repeated 2 times.
+Dalex repeated 2 times.
+Kina repeated 2 times.
+Lauv repeated 2 times.
+Lil Baby repeated 2 times.
+Lizzo repeated 2 times.
+Lunay repeated 2 times.
+Maroon 5 repeated 2 times.
+MEDUZA repeated 2 times.
+Nicky Jam repeated 2 times.
+Rich Music LTD repeated 2 times.
+Roddy Ricch repeated 2 times.
+ROSALÍA repeated 2 times.
+Sam Smith repeated 2 times.
+Sech repeated 2 times.
+Shawn Mendes repeated 2 times.
+The Weeknd repeated 2 times.
+Tones and I repeated 2 times.
+YNW Melly repeated 2 times.
+5 Seconds of Summer repeated 1 times.
+Alan Walker repeated 1 times.
+Ali Gatie repeated 1 times.
+Ant Saunders repeated 1 times.
+Anuel AA repeated 1 times.
+Arcangel repeated 1 times.
+Ava Max repeated 1 times.
+benny blanco repeated 1 times.
+Black Thought repeated 1 times.
+BROCKHAMPTON repeated 1 times.
+Camilo repeated 1 times.
+Chris Brown repeated 1 times.
+Conan Gray repeated 1 times.
+Dan + Shay repeated 1 times.
+Dean Lewis repeated 1 times.
+Dimelo Flow repeated 1 times.
+DJ Snake repeated 1 times.
+Doja Cat repeated 1 times.
+Dominic Fike repeated 1 times.
+Don Toliver repeated 1 times.
+Drake repeated 1 times.
+Dua Lipa repeated 1 times.
+Ellie Goulding repeated 1 times.
+Future repeated 1 times.
+Gambi repeated 1 times.
+Henrique & Juliano repeated 1 times.
+Imagine Dragons repeated 1 times.
+J. Cole repeated 1 times.
+JACKBOYS repeated 1 times.
+James Arthur repeated 1 times.
+Jhay Cortez repeated 1 times.
+JP Saxe repeated 1 times.
+Juju repeated 1 times.
+Justin Bieber repeated 1 times.
+Justin Quiles repeated 1 times.
+KAROL G repeated 1 times.
+Khalid repeated 1 times.
+Kygo repeated 1 times.
+Lady Gaga repeated 1 times.
+Lil Nas X repeated 1 times.
+Lil Tecca repeated 1 times.
+Lil Uzi Vert repeated 1 times.
+Maes repeated 1 times.
+Marshmello repeated 1 times.
+Matthew Wilder repeated 1 times.
+Mustard repeated 1 times.
+Noah Cyrus repeated 1 times.
+Olivia Rodrigo repeated 1 times.
+Panic! At The Disco repeated 1 times.
+Piso 21 repeated 1 times.
+Queen repeated 1 times.
+Rauw Alejandro repeated 1 times.
+Red Velvet repeated 1 times.
+Regard repeated 1 times.
+Reik repeated 1 times.
+Riton repeated 1 times.
+SAINt JHN repeated 1 times.
+SHAED repeated 1 times.
+Shakira repeated 1 times.
+Stormzy repeated 1 times.
+Surfaces repeated 1 times.
+Tainy repeated 1 times.
+The Black Eyed Peas repeated 1 times.
+Thiaguinho MT repeated 1 times.
+Trevor Daniel repeated 1 times.
+Tyga repeated 1 times.
+Ufo361 repeated 1 times.
+Y2K repeated 1 times.
+Young Thug repeated 1 times.
+
+The artists names using linked lists: 
+
+Eminem was streamed 17 times.
+Mac Miller was streamed 12 times.
+Billie Eilish was streamed 6 times.
+Post Malone was streamed 6 times.
+Ed Sheeran was streamed 5 times.
+DaBaby was streamed 4 times.
+Halsey was streamed 4 times.
+Harry Styles was streamed 4 times.
+J Balvin was streamed 4 times.
+Travis Scott was streamed 4 times.
+Jonas Brothers was streamed 3 times.
+Juice WRLD was streamed 3 times.
+Lewis Capaldi was streamed 3 times.
+Selena Gomez was streamed 3 times.
+XXXTENTACION was streamed 3 times.
+Ariana Grande was streamed 2 times.
+Arizona Zervas was streamed 2 times.
+Bad Bunny was streamed 2 times.
+blackbear was streamed 2 times.
+BTS was streamed 2 times.
+Camila Cabello was streamed 2 times.
+Daddy Yankee was streamed 2 times.
+Dalex was streamed 2 times.
+Kina was streamed 2 times.
+Lauv was streamed 2 times.
+Lil Baby was streamed 2 times.
+Lizzo was streamed 2 times.
+Lunay was streamed 2 times.
+Maroon 5 was streamed 2 times.
+MEDUZA was streamed 2 times.
+Nicky Jam was streamed 2 times.
+Rich Music LTD was streamed 2 times.
+Roddy Ricch was streamed 2 times.
+ROSALÍA was streamed 2 times.
+Sam Smith was streamed 2 times.
+Sech was streamed 2 times.
+Shawn Mendes was streamed 2 times.
+The Weeknd was streamed 2 times.
+Tones and I was streamed 2 times.
+YNW Melly was streamed 2 times.
+5 Seconds of Summer was streamed 1 times.
+Alan Walker was streamed 1 times.
+Ali Gatie was streamed 1 times.
+Ant Saunders was streamed 1 times.
+Anuel AA was streamed 1 times.
+Arcangel was streamed 1 times.
+Ava Max was streamed 1 times.
+benny blanco was streamed 1 times.
+Black Thought was streamed 1 times.
+BROCKHAMPTON was streamed 1 times.
+Camilo was streamed 1 times.
+Chris Brown was streamed 1 times.
+Conan Gray was streamed 1 times.
+Dan + Shay was streamed 1 times.
+Dean Lewis was streamed 1 times.
+Dimelo Flow was streamed 1 times.
+DJ Snake was streamed 1 times.
+Doja Cat was streamed 1 times.
+Dominic Fike was streamed 1 times.
+Don Toliver was streamed 1 times.
+Drake was streamed 1 times.
+Dua Lipa was streamed 1 times.
+Ellie Goulding was streamed 1 times.
+Future was streamed 1 times.
+Gambi was streamed 1 times.
+Henrique & Juliano was streamed 1 times.
+Imagine Dragons was streamed 1 times.
+J. Cole was streamed 1 times.
+JACKBOYS was streamed 1 times.
+James Arthur was streamed 1 times.
+Jhay Cortez was streamed 1 times.
+JP Saxe was streamed 1 times.
+Juju was streamed 1 times.
+Justin Bieber was streamed 1 times.
+Justin Quiles was streamed 1 times.
+KAROL G was streamed 1 times.
+Khalid was streamed 1 times.
+Kygo was streamed 1 times.
+Lady Gaga was streamed 1 times.
+Lil Nas X was streamed 1 times.
+Lil Tecca was streamed 1 times.
+Lil Uzi Vert was streamed 1 times.
+Maes was streamed 1 times.
+Marshmello was streamed 1 times.
+Matthew Wilder was streamed 1 times.
+Mustard was streamed 1 times.
+Noah Cyrus was streamed 1 times.
+Olivia Rodrigo was streamed 1 times.
+Panic! At The Disco was streamed 1 times.
+Piso 21 was streamed 1 times.
+Queen was streamed 1 times.
+Rauw Alejandro was streamed 1 times.
+Red Velvet was streamed 1 times.
+Regard was streamed 1 times.
+Reik was streamed 1 times.
+Riton was streamed 1 times.
+SAINt JHN was streamed 1 times.
+SHAED was streamed 1 times.
+Shakira was streamed 1 times.
+Stormzy was streamed 1 times.
+Surfaces was streamed 1 times.
+Tainy was streamed 1 times.
+The Black Eyed Peas was streamed 1 times.
+Thiaguinho MT was streamed 1 times.
+Trevor Daniel was streamed 1 times.
+Tyga was streamed 1 times.
+Ufo361 was streamed 1 times.
+Y2K was streamed 1 times.
+Young Thug was streamed 1 times.
