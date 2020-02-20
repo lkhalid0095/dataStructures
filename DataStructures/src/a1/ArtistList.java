@@ -1,5 +1,7 @@
 package a1;
 
+import java.io.PrintStream;
+
 public class ArtistList {
 
 	/**
@@ -65,16 +67,17 @@ public class ArtistList {
 		return size;
 	}
 	
-
-	
 	
 	//prints the node of the list using the same iteration process like we did earlier in insert
-	public void displayList() {
+	public void displayList(PrintStream ps) {
 		Artist current = first;
 		while(current.next != null) {
-			current.displayArtist();
+			current.displayArtist(ps);
 			current = current.next;
 		}
+		//since it's checking the address of the next node, the last element wouldn't print 
+		//unless i print the last element here
+		current.displayArtist(ps);
 		
 
 	}
