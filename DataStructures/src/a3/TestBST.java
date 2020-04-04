@@ -27,7 +27,7 @@ public class TestBST {
 			String input = in.nextLine();
 			int year = Integer.parseInt(input.substring(input.lastIndexOf('(')+1, input.lastIndexOf(')')));
 			String title = input.substring(input.indexOf(',')+1, input.lastIndexOf('('));
-			System.out.println(title + " " + year);
+			ps.println(title + " " + year);
 			tree.addNode(title, year);
 		
 		
