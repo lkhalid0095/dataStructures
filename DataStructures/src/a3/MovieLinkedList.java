@@ -4,8 +4,8 @@ import a1.Artist;
 
 public class MovieLinkedList {
 
-	Movie first;
-	Movie last;
+	MovieA3 first;
+	MovieA3 last;
 	int size;
 	public MovieLinkedList() {
 		first = null;
@@ -15,7 +15,7 @@ public class MovieLinkedList {
 	
 	public void insertLast(String name, int year ) {
 
-		Movie newNode = new Movie(name, year);
+		MovieA3 newNode = new MovieA3(name, year);
 		// if the list is empty then the last node would be assigned the new node
 		newNode.next = null;
 
@@ -26,7 +26,7 @@ public class MovieLinkedList {
 		//but if the list isn't empty, you iterate through the list
 		//until you find a node that points to an empty node and make that equal to the new node.
 		else {
-			Movie temp = first;
+			MovieA3 temp = first;
 			while(temp.next != null) {
 				temp = temp.next;
 			}
@@ -36,7 +36,7 @@ public class MovieLinkedList {
 
 	}
 	
-	public Movie sortAlphabetically() {
+	public MovieA3 sortAlphabetically() {
 
 		
 		
@@ -44,10 +44,10 @@ public class MovieLinkedList {
 		//this is bubble sorting, when you take the pairs and compare
 		// use comparetoignorecase so you compare letters without worrying about the case
 		// since the artist names are the same amount as the rows then use that as the count
-		Movie start = first;
+		MovieA3 start = first;
 		boolean swapped = false;
-		Movie temp;
-		Movie current = null;
+		MovieA3 temp;
+		MovieA3 current = null;
 		if(start == null)
 			return null;
 		do {

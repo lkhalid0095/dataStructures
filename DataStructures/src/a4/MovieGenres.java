@@ -26,9 +26,10 @@ public class MovieGenres {
 			}
 			map.put(genre, title);
 			
+			ps.println("The title:  " +title + "and genre " + genre);
 		}
 	
-		map.forEach((k, v) -> ps.println(k + " : " + (v))); 
+		
 	}
 
 }

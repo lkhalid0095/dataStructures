@@ -1,17 +1,17 @@
 package a3;
 
-public class Movie {
+public class MovieA3 {
 
 	//node for the movie binary tree
 	//the title is the key
-	String title;
+	public String title;
 	int releaseYear;
 
-	Movie left;
-	Movie right;
-	Movie next; //linked list
+	public MovieA3 left;
+	public MovieA3 right;
+	public MovieA3 next; //linked list
 
-	Movie(String key, int year){
+	public MovieA3(String key, int year){
 		title = key;
 		releaseYear = year;
 

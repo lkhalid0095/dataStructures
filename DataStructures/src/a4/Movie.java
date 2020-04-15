@@ -1,6 +1,8 @@
-package a3;
+package a4;
 
-public class MovieBST {
+import a3.MovieA3;
+
+public class Movie {
 
 	MovieA3 root;
 
@@ -61,7 +63,7 @@ public class MovieBST {
         printInorder(node.right); 
     } 
 
-	public void subSet(MovieA3 node, String start, String end) {
+	public void subSet(Movie node, String start, String end) {
 
 		
 	}
