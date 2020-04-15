@@ -43,8 +43,26 @@ public class MovieBST {
 			}
 		}
 	}
+    void printInorder(Movie node) 
+    { 
+    	
+    
+    	
+        if (node == null) 
+            return; 
+  
+        /* first recur on left child */
+        printInorder(node.left); 
+  
+        /* then print the data of node */
+        System.out.print(node.title + " "); 
+  
+        /* now recur on right child */
+        printInorder(node.right); 
+    } 
 
-	public void subSet(String start, String end) {
+	public void subSet(Movie node, String start, String end) {
 
+		
 	}
 }

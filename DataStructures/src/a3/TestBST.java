@@ -27,11 +27,15 @@ public class TestBST {
 			String input = in.nextLine();
 			int year = Integer.parseInt(input.substring(input.lastIndexOf('(')+1, input.lastIndexOf(')')));
 			String title = input.substring(input.indexOf(',')+1, input.lastIndexOf('('));
-			ps.println(title + " " + year);
+			//ps.println(title + " " + year);
 			tree.addNode(title, year);
-		
+			System.out.print(tree.);
+			
 		
 		}
+		
+		Movie node = new Movie("Spy Game", 2001);
+		tree.printInorder(node);
 		
 		
 	}

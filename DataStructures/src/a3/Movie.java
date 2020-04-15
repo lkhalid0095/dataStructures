@@ -9,6 +9,7 @@ public class Movie {
 
 	Movie left;
 	Movie right;
+	Movie next; //linked list
 
 	Movie(String key, int year){
 		title = key;
